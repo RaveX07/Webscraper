@@ -9,7 +9,7 @@ driver.get("https://www.amazon.de/Neues-Apple-iPhone-Pro-128-GB/dp/B08L5SNWD2/re
 def sendemail():
     global pricetext
     EMAIL_ADDRESS = "jannisschroter@gmail.com"
-    EMAILS_PASSWORD = "Jann1s2007"
+    EMAILS_PASSWORD = ""
     msg = """\
         Das iPhone kostet unter 1100 Euro
         Das war das Python Skript von Jannis
